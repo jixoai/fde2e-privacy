@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://www.fde2e.com/privacy/bu/">
+<title>FDE2E BU Bridge 隐私权政策 · FDE2E</title>
+<meta name="description" content="FDE2E BU Bridge（Chrome 扩展）隐私权政策：单一用途、处理的数据、共享与保留、权限说明与联系方式。">
+<meta name="robots" content="index,follow">
+<link rel="icon" type="image/png" sizes="32x32" href="../../brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../brand/favicon-16.png">
+<style>
+  :root {
+    --bg: #06070b;
+    --panel: rgba(242, 240, 234, 0.03);
+    --ink: #f2f0ea;
+    --dim: rgba(242, 240, 234, 0.64);
+    --faint: rgba(242, 240, 234, 0.42);
+    --line: rgba(242, 240, 234, 0.1);
+    --gold: #e9b44c;
+    --sans: "PingFang SC", "HarmonyOS Sans SC", "Source Han Sans SC",
+      "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0; color: var(--ink); background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(233, 180, 76, 0.08), transparent 60%),
+      var(--bg);
+    font: 15px/1.85 var(--sans); -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 28px; margin-bottom: 36px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--dim); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+  .brand b { color: var(--gold); font-weight: 600; }
+  h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin: 18px 0 10px; letter-spacing: -0.01em; }
+  .meta { color: var(--faint); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  h2 { font-size: 19px; margin: 40px 0 12px; padding-top: 8px; }
+  h3 { font-size: 15px; margin: 22px 0 8px; color: var(--ink); }
+  p, li { color: var(--dim); }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13.5px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1px solid var(--line); }
+  th { color: var(--ink); background: var(--panel); font-weight: 600; white-space: nowrap; }
+  td { color: var(--dim); }
+  .note { border: 1px solid var(--line); background: var(--panel); border-radius: 12px; padding: 14px 16px; margin: 18px 0; }
+  .note p { margin: 0; }
+  code { font-family: var(--mono); font-size: 0.92em; color: var(--ink); }
+  footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--faint); font-size: 12.5px; }
+  @media (max-width: 640px) {
+    .wrap { padding: 36px 18px 72px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    th { border-bottom: none; }
+    td { border-top: none; }
+    tr { border: 1px solid var(--line); margin-bottom: 12px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="brand"><b>FDE2E</b> · Privacy Policy</div>
+    <h1>FDE2E BU Bridge 隐私权政策</h1>
+    <div class="meta">
+      <span>生效日期：2026-11-13</span>
+      <span>适用产品：FDE2E BU Bridge（Chrome 扩展，含 Chrome Web Store 版）</span>
+      <span>运营方：昭智羽名（厦门）科技有限公司</span>
+    </div>
+  </header>
+
+  <p>本政策说明 FDE2E BU Bridge（下称“BU Bridge”或“本扩展”）如何处理与你有关的数据。我们尽量用直白的语言写清楚：<strong>哪些数据在本机处理、哪些会离开你的设备、你可以如何删除。</strong></p>
+
+  <h2>1. 单一用途</h2>
+  <p>BU Bridge 是一个浏览器协作桥。在你完成配对并明确授权后，它让你选择的 AI 员工在<strong>受控标签页</strong>中执行浏览器操作（打开网页、读取页面、点击、输入、滚动、截图等），用于网页查询、表单填写、信息采集与重复性网页工作。除此之外，本扩展不提供其它用途。</p>
+
+  <h2>2. 我们处理哪些数据</h2>
+  <table>
+    <thead>
+      <tr><th>数据类别</th><th>示例</th><th>处理位置</th><th>是否离开本机</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>网站内容</td><td>任务标签页中的文字、图片、链接、表单值</td><td>本机浏览器</td><td>任务结果可能发送到<strong>你配置的 AI 服务</strong></td></tr>
+      <tr><td>用户活动</td><td>由 AI 任务触发的点击、键入、滚动、导航</td><td>本机浏览器</td><td>同上（作为任务结果/回执）</td></tr>
+      <tr><td>网络记录</td><td>任务标签页访问的网址与页面标题</td><td>本机浏览器</td><td>同上</td></tr>
+      <tr><td>身份验证信息</td><td>站点的 Cookie 与登录态</td><td>本机浏览器</td><td><strong>不离开本机</strong>：本扩展不导出、不上传 Cookie</td></tr>
+      <tr><td>配对与设置</td><td>配对令牌、任务状态、扩展设置</td><td>本机</td><td>仅建立会话所需的最小信息</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><p><strong>边界说明：</strong>BU Bridge 只在你配对并授权的标签页中工作；它不会在后台遍历你未授权的标签页。任务指令与结果会发送到你在 FDE2E Center / Omni 中配置的 AI 服务端点——该端点可能是 FDE2E 云端，也可能是你自建或第三方的服务。</p></div>
+
+  <h2>3. 我们如何使用这些数据</h2>
+  <ul>
+    <li>执行你或你的 AI 员工发起的浏览器任务，并返回回执与结果；</li>
+    <li>维持与本机 CLI / AI 服务的连接（保活、重连、更新检查）；</li>
+    <li>在扩展内展示任务状态、权限与操作记录，便于你审计。</li>
+  </ul>
+  <p>我们<strong>不会</strong>把上述数据用于广告、用户画像、信用评估或与本扩展单一用途无关的目的。</p>
+
+  <h2>4. 共享与出售</h2>
+  <ul>
+    <li>我们<strong>不出售</strong>用户数据，也不向第三方共享用于其自身目的。</li>
+    <li>任务指令与结果会发送到<strong>你配置的 AI 服务端点</strong>；该端点如何存储与使用数据，受其自身隐私政策约束。若你使用 FDE2E 云端服务，请同时参阅 FDE2E 的服务条款与隐私政策。</li>
+    <li>仅在法律法规要求、或为保护用户与公众安全所必需时，才可能依法披露。</li>
+  </ul>
+
+  <h2>5. 保留与删除</h2>
+  <ul>
+    <li>配对信息、扩展设置与本机回执保存在你的设备上；卸载扩展、或在扩展设置中清除数据，即可删除。</li>
+    <li>我们不在 FDE2E 侧集中保存你的浏览内容。若你使用 FDE2E 云端服务，服务端日志按服务条款规定的最短必要期限保存。</li>
+  </ul>
+
+  <h2>6. 安全</h2>
+  <ul>
+    <li>最小权限原则：只请求完成单一用途所必需的权限；</li>
+    <li>Native Messaging 通道只放行受信任的扩展 ID；</li>
+    <li>命令白名单与回执审计；传输使用 WSS / HTTPS 加密；</li>
+    <li>私钥与配对凭据只保存在本机受控位置，不进入公开仓库。</li>
+  </ul>
+
+  <h2>7. 权限说明</h2>
+  <ul>
+    <li><code>alarms</code>：定时保活、重连与更新检查。</li>
+    <li><code>clipboardRead</code>：仅在你显式触发的粘贴操作中读取剪贴板并填入页面。</li>
+    <li><code>cookies</code>：读取/维护任务标签页所需的登录态；不导出、不上传 Cookie。</li>
+    <li><code>debugger</code>：通过 Chrome DevTools Protocol 在<strong>受控任务标签页</strong>执行页面操作与截图；用于实现单一用途，不用于监控你未授权的标签页。</li>
+    <li><code>downloads</code>：任务需要保存文件时，下载到你指定的位置。</li>
+    <li><code>nativeMessaging</code>：与本机 <code>fde2e-bu</code> CLI 通信，完成配对、授权与任务回执。</li>
+    <li><code>scripting</code>：在任务标签页注入受控脚本，读取/操作页面。</li>
+    <li><code>storage</code>：保存配对信息、任务状态与扩展设置。</li>
+    <li><code>tabs</code>：枚举与操作用户授权的任务标签页。</li>
+    <li><code>unlimitedStorage</code>：保存较大的本地任务数据（如截图与日志）。</li>
+    <li><code>offscreen</code>：后台媒体与截图处理。</li>
+    <li><code>webNavigation</code>：跟踪任务标签页的导航状态，等待页面就绪。</li>
+    <li>主机权限（<code>http://*/*</code>、<code>https://*/*</code> 等）：在用户指定任务的任意网站页面执行操作；范围受配对与授权约束。</li>
+  </ul>
+
+  <h2>8. 儿童</h2>
+  <p>本扩展不面向 13 岁以下儿童，我们不会有意收集儿童的个人信息。</p>
+
+  <h2>9. 政策更新</h2>
+  <p>本政策更新后会在此页发布并更新生效日期；重大变更会在扩展或网站上提示。继续使用即表示你接受更新后的政策。</p>
+
+  <h2>10. 联系我们</h2>
+  <p>邮箱：<a href="mailto:gaubeebangeel@gmail.com">gaubeebangeel@gmail.com</a><br>
+  网站：<a href="https://www.fde2e.com">https://www.fde2e.com</a></p>
+
+  <h2>English Summary</h2>
+  <p>FDE2E BU Bridge is a browser-collaboration extension. After you pair and authorize it, it lets your chosen AI agent operate <strong>controlled tabs</strong> (open, read, click, type, scroll, screenshot) for web research, form filling, and data collection. Website content, task activity, visited URLs, and task results may be sent to the <strong>AI endpoint you configure</strong>; site cookies and login sessions stay on your device and are never exported by the extension. We do not sell user data or use it for advertising, profiling, or creditworthiness. Data is retained locally and can be removed by uninstalling the extension or clearing its data. Contact: <a href="mailto:gaubeebangeel@gmail.com">gaubeebangeel@gmail.com</a>.</p>
+
+  <footer>
+    <div>© 2026 昭智羽名（厦门）科技有限公司 · FDE2E</div>
+    <div>本页为 FDE2E BU Bridge 的隐私权政策，供 Chrome Web Store 审核与用户查阅。</div>
+  </footer>
+</main>
+</body>
+</html>
